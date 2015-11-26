@@ -315,11 +315,12 @@ div.contact_info {
     height: 75px;
     margin: -6px 0 0 0;
     }
+
 /* Menu */
 nav{
     position: absolute;
     right: 100px;
-    top: 55px;
+    top: 50px;
 	}
 	.sf-menu {
 		list-style:none;
