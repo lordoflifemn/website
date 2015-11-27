@@ -17,7 +17,7 @@ body{
 	-webkit-text-size-adjust: none;
 }
 
-/*Imeges*/
+/*Images*/
 img{
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -314,6 +314,10 @@ div.contact_info {
     font-size: 11px;
     height: 75px;
     margin: -6px 0 0 0;
+    }
+    div.contact_info a {
+        color: #3d8941;
+        text-decoration: underline;        
     }
 
 /* Menu */
