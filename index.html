@@ -60,6 +60,12 @@
         $(function(){
           $("#includedFooter").load("/footer.html");
           $("#includedHeader").load("/header.html");
+
+          $("#includedLatestNews").load("/latest_news.html");
+          $("#includedSermonNotes").load("/sermon_notes.html");
+          $("#includedUpcomingEvents").load("/upcoming_events.html");
+          $("#includedWelcome").load("/welcome.html");
+          $("#includedWorshipSchedule").load("/worship_schedule.html");
         });
     </script> 
 </head>
@@ -105,43 +111,51 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_8">
+                    <!-- Welcome -->
 					<div class="box1">
 						<div class="title_box">
 							<h4>
-								Welcome<br> 
-								<span>to Our Church</span>
+								Welcome<span> to Our Church</span>
 							</h4>
-						</div>
-						
-						<h6 class="italic">
-							What do people say about our church? 
-						</h6>
-						<p>
-							Most people find Lord of Life to be a friendly and welcoming, come as you are, accepted for who you are, give of your 
-                            talents and leadership, grow together in spirit and faith, give as God leads you, lean on each other place, where 
-                            traditions are alive, music rings out, and the hope and promise and grace of Jesus Christ are made known and celebrated!
-                            You will find additional information in our Visitor Guide.
-						</p>
-                        <p>
-                            Our church is not a building; it is group of regular people that have come together. United we work to form a family.
-                            We are a diverse gathering with a common hope - to become closer to our faith through ministry and fellowship.
-                        </p>
-						<a href="#" class="btn">
+						</div>						
+						<div id="includedWelcome"></div>
+						<a href="/about" class="btn">
 							<span>
 								Read more
 							</span>
 						</a>
 					</div>
+
+                    <!-- Latest News -->
                     <div class="box1">
                         <div class="title_box">
-							<h4>
+							<h4 style="margin-bottom: 10px;">
 								Latest<span> News</span>
 							</h4>
-						</div>
-                    </div>
+                        </div>
+                        <div id="includedLatestNews"></div>
+                        <a href="/about/latest_news" class="btn">
+							<span>
+								Read more
+							</span>
+						</a>
+					</div>
 				</div>
 				
+                <div class="grid_4">
+                    <!-- Worship Schedule -->
+					<div class="box1">
+						<div class="title_box">
+							<h4>
+								Worship<span> Schedule</span>
+							</h4>
+						</div>
+                        <div id="includedWorshipSchedule"></div>	
+					</div>
+				</div>
+
 				<div class="grid_4">
+                    <!-- Quick Links -->
 					<div class="box1">
 						<div class="title_box">
 							<h4>
@@ -164,38 +178,26 @@
 				</div>
 					
 				<div class="grid_4">
+                    <!-- Upcoming Events -->
 					<div class="box1">
 						<div class="title_box">
 							<h4>
 								Upcoming<span> Events</span>
 							</h4>
-						</div>						
-						<div class="title_box m_19">
-							<div class="img_to_post">
-                                <span class="img_to_post_date">10 Sept</span>
-							</div>
-							
-							<h6 class="italic m_01">
-								Property Mgmt Meeting, 6 p.m.
-							</h6>
-                            <p class="m_16"></p>
-						</div>
-											
-						<div class="title_box m_19">
-							<div class="img_to_post">
-								<span class="img_to_post_date">12 Sept</span>
-							</div>
-							
-							<h6 class="italic m_01">
-								IGNITE Campout, 6 p.m.
-							</h6>
-							
-							<p class="m_16">
-								The IGNITE youth will be camping out in the Memorial Garden the night before our Fall Festival.
-							</p>
-						</div>
-						
+						</div>		
+						<div id="includedUpcomingEvents"></div>						
 						<a href="#" class="simple_link">See all</a>
+					</div>
+				</div>
+                <div class="grid_4">
+                    <!-- Sermon Notes -->
+					<div class="box1">
+						<div class="title_box">
+							<h4>
+								Sermon<span> Notes</span>
+							</h4>
+						</div>
+                        <div id="includedSermonNotes"></div>	
 					</div>
 				</div>
 			</div>

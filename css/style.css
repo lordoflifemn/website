@@ -172,23 +172,23 @@ h6{
 	}
 
 	h6.italic{
+		color: #3d8941;
 		font-family: Georgia, serif;
 		font-size: 17px;
-		line-height: 25px;
-		font-weight: normal;
 		font-style: italic;
-		color: #3d8941;
+		font-weight: normal;
+		line-height: 25px;
 		margin-bottom: 8px;
 		}
 	h6.icon_title{
-		padding-left:  29px;
+		color: #3d8941;
 		font-family: Georgia, serif;
 		font-size: 17px;
-		line-height: 25px;
-		font-weight: normal;
 		font-style: italic;
-		color: #3d8941;
+		font-weight: normal;
+		line-height: 25px;
 		margin-bottom: 2px;
+		padding-left:  29px;
 		position: relative;
 		}
 		h6.icon_title a{
@@ -211,9 +211,8 @@ h6{
 			left: 0px;
 			}
 		
-
 h2 a, h3 a, h4 a, h5 a, h6 a{
-	color:inherit;'
+	color:inherit;
 }
 	h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
 	}
@@ -805,18 +804,10 @@ footer{
 		address dl{
 			margin-bottom: 0px;
 			}
-
 }
 
 
-
 @media only screen and (max-width: 995px) {
-
-
-	
-
-
-
 	.img_fleft,
 	.img_right{
 		width: 100%;
@@ -838,7 +829,6 @@ footer{
 		margin-left:15px;
 	}
 
-
 	.address_box address{
 			float: none;
 			margin-right: 0px;
@@ -850,9 +840,6 @@ footer{
 	#form .btns {
 		margin-right: 12px;
 		}
-
-
-
 }
 @media only screen and (max-width: 767px) {
 	.sf-menu{
