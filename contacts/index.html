@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contacts</title>
+	<title>Lord of Life | Contacts</title>
 	<meta charset="utf-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
@@ -29,6 +29,7 @@
 	<!--[if (gt IE 9)|!(IE)]><!-->
 		<script src="/js/jquery.mobile.customized.min.js"></script>
 	<!--<![endif]-->
+
 	<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -36,86 +37,24 @@
 			</a>
 		</div>
 	<![endif]-->
+
 	<!--[if lt IE 9]>
 		<script src="/js/html5shiv.js"></script>
 		<link rel="stylesheet" media="screen" href="css/ie.css">
 	<![endif]-->
+
+    <script> 
+        $(function(){
+          $("#includedFooter").load("/footer.html");
+          $("#includedHeader").load("/header.html");
+        });
+    </script>
 </head>
+
 <body>
 	<!-- header -->
 	<header>
-		<div class="header_box">
-			<div class="container">
-				<div class="row">
-					<div class="grid_12">
-						<!-- logo -->
-                        <a href="/">
-						    <h1>
-                                <img src="/images/Treelogo.bmp" alt="Lord of Life Lutheran Church" title="Lord of Life Lutheran Church">
-                                <span class="lord">Lord of Life</span><span class="church">Lutheran Church</span>
-                                <span class="hope">Making God first through hope, growth and togetherness</span>
-						    </h1>
-                        </a>
-                        <div class="contact_info">
-                            Services: Sunday 9:30 AM | 16200 Dodd Lane, Lakeville MN | 952-953-4484 | info@lordoflifemn.org
-                        </div>
-						<!-- menu -->
-						<nav>
-							<ul class="sf-menu clearfix">
-								<li><a href="/">Home</a></li>
-								<li><a href="/aboout">About</a></li>
-								<li><a href="/ministries">Ministries</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-										<li><a href="#">Conse ctetur adipisicing </a>
-											<ul>
-												<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-												<li><a href="#">Conse ctetur adipisicing </a></li>
-												<li><a href="#">Elit sed do eiusmod tempor</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Elit sed do eiusmod tempor</a></li>
-									</ul>
-								</li>
-								<li><a href="/get_involved">Get involved</a></li>
-								<li><a href="/community">Community</a></li>
-								<li class="current"><a href="/contacts">Contacts</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<!-- slider -->
-					<div class="slide_box">
-						<div class="camera_wrap" id="slider">
-							<div data-src="/images/slide1.jpg" data-thumb="/images/slide1.jpg">
-								<div class="camera_caption">
-									<h4>A sacred space </h4>
-									<h3>for everyone </h3>
-								</div>
-							</div>
-							<div data-src="/images/slide2.jpg" data-thumb="/images/slide2.jpg">
-								<div class="camera_caption">
-									<h4>Striving to help you </h4>
-									<h3>connect to Jesus </h3>
-								</div>
-							</div>
-							<div data-src="/images/slide3.jpg" data-thumb="/images/slide3.jpg">
-								<div class="camera_caption">
-									<h4>Reaching the world </h4>
-									<h3>for Christ</h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<div id="includedHeader"></div>
 	</header>
 
 	<!-- content -->
@@ -209,64 +148,8 @@
 	</div>
 
 	<!-- footer -->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="grid_2 m_20">
-					<h4 class="footer_title">Worship</h4>
-					<ul class="list">
-						<li><a href="#">Lorem ipsum dolor</a></li>
-						<li><a href="#">Conse ctetur</a></li>
-						<li><a href="#">Elit sed do </a></li>
-						<li><a href="#">Incididunt ut labore </a></li>
-						<li><a href="#">Et dolore magna</a></li>
-					</ul>
-				</div>
-				<div class="grid_2 m_20">
-					<h4 class="footer_title">Community Formation</h4>
-					<ul class="list">
-						<li><a href="#">Elit sed do </a></li>
-						<li><a href="#">Incididunt ut labore </a></li>
-						<li><a href="#">Et dolore magna</a></li>
-						<li><a href="#">Ut enim ad minim </a></li>
-						<li><a href="#">Lorem ipsum dolor</a></li>
-						<li><a href="#">Conse ctetur </a></li>
-					</ul>
-				</div>
-				<div class="grid_2 m_20">
-					<h4 class="footer_title">Church Planting</h4>
-					<ul class="list">
-						<li><a href="#">Et dolore magna</a></li>
-						<li><a href="#">Ut enim ad minim</a></li>
-						<li><a href="#">Lorem ipsum dolor</a></li>
-						<li><a href="#">Conse ctetur</a></li>
-						<li><a href="#"></a></li>
-					</ul>
-				</div>
-				<div class="grid_2 m_20">
-					<h4 class="footer_title">Faith &amp; Work</h4>
-					<ul class="list">
-						<li><a href="#">Ut enim ad minim </a></li>
-						<li><a href="#">Lorem ipsum dolor</a></li>
-						<li><a href="#">Conse ctetur </a></li>
-						<li><a href="#">Elit sed do </a></li>
-						<li><a href="#">Incididunt ut labore</a></li>
-					</ul>
-				</div>
-				<div class="grid_4">
-					<a class="footer_logo" href="#">
-						<img src="images/footer_logo.png" alt="">
-					</a>
-					<span class="footer_addres">8901 Marmora Road,  Glasgow,  D04 89GR  </span>
-					<span class="footer_phone">Tel: (800) 2345-6789</span>
-				</div>
-			</div>
-			<div class="row">
-				<div class="grid_12">
-					<div class="copyright">Presbyterian church &copy; <span id="copyright-year"></span>. <a href="index-6.html">Privacy Policy</a></div>
-				</div>
-			</div>
-		</div>
-	</footer>
+    <footer>
+        <div id="includedFooter"></div>
+    </footer>
 </body>
 </html>
