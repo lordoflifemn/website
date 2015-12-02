@@ -138,7 +138,7 @@ h3{
 }
 h4{
 	font-family: 'Roboto Slab', serif;
-	font-size: 31px;
+	font-size: 28px;
 	line-height: 36px;
 	font-weight: 400;
 	color: #323232;
@@ -429,7 +429,7 @@ nav{
 		-webkit-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.07);
 		-moz-box-shadow:    0px 0px 27px 0px rgba(0, 0, 0, 0.07);
 		box-shadow:         0px 0px 27px 0px rgba(0, 0, 0, 0.07);
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 		}
 
 
