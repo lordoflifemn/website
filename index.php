@@ -10,9 +10,9 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/camera.css">
 	
-	<link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,300,700" rel="stylesheet" type="text/css">
 	
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+	<link href="//fonts.googleapis.com/css?family=Roboto:400,300,100,500" rel="stylesheet" type="text/css">
 	
 	<script src="/js/jquery.js"></script>
 	<script src="/js/jquery-migrate-1.1.1.js"></script>
@@ -59,13 +59,11 @@
     <script> 
         $(document).ready(function(){
           $("#includedFooter").load("/footer.html");
-          $("#includedHeader").load("/header.html");
-
+          
           $("#includedAdditionalReferences").load("/additional_references.html");
           $("#includedLatestNews").load("/latest_news.html");
           $("#includedSermonNotes").load("/sermon_notes.html");
           $("#includedUpcomingEvents").load("/upcoming_events.html");
-          $("#includedWelcome").load("/welcome.html");
           $("#includedWorshipSchedule").load("/worship_schedule.html");
         });
     </script> 
@@ -74,7 +72,7 @@
 <body>
 	<!-- header -->
 	<header>
-		<div id="includedHeader"></div>
+		<?php include("/header.html"); ?>
 
 		<div class="container">
 			<div class="row">
@@ -119,7 +117,7 @@
 								Welcome<span> to Our Church</span>
 							</h4>
 						</div>						
-						<div id="includedWelcome"></div>
+						<?php include("/welcome.html"); ?>
 						<a href="/about" class="btn">
 							<span>
 								Read more
@@ -134,7 +132,7 @@
 								Latest<span> News</span>
 							</h4>
                         </div>
-                        <div id="includedLatestNews"></div>
+                        <?php include("/latest_news.html"); ?>
                         <a href="/about/latest_news" class="btn">
 							<span>
 								Read more
@@ -151,7 +149,7 @@
 								Worship<span> Schedule</span>
 							</h4>
 						</div>
-                        <div id="includedWorshipSchedule"></div>	
+                        <?php include("/worship_schedule.html"); ?>
 					</div>
 
                     <!-- Quick Links -->
@@ -181,8 +179,8 @@
 							<h4>
 								Upcoming<span> Events</span>
 							</h4>
-						</div>		
-						<div id="includedUpcomingEvents"></div>						
+						</div>
+                        <?php include("/upcoming_events.html"); ?>
 						<a href="#" class="simple_link">See all</a>
 					</div>
 
@@ -193,7 +191,7 @@
 								Sermon<span> Notes</span>
 							</h4>
 						</div>
-                        <div id="includedSermonNotes"></div>	
+                        <?php include("/sermon_notes.html"); ?>
 					</div>
 
                     <!-- Additional References -->
@@ -203,7 +201,7 @@
 								Additional<span> References</span>
 							</h4>
 						</div>
-                        <div id="includedAdditionalReferences"></div>	
+                        <?php include("/additional_references.html"); ?>
 					</div>
 				</div>
 			</div>
@@ -212,7 +210,7 @@
 
 	<!-- footer -->
     <footer>
-        <div id="includedFooter"></div>
+        <?php include("/footer.html"); ?>
     </footer>
 </body>
 </html>
