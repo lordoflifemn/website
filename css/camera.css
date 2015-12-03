@@ -360,18 +360,18 @@
 	top: 50%;
 	margin-top: -60px;
 	left: 50%;
-	margin-left: -89px;
+	margin-left: -40px;
 	display: block;
 	position: absolute;
 	width: 100%;
 	}
 	.camera_caption > div h3{
 		font-family: 'Roboto', sans-serif;
-		font-size: 57px;
+		font-size: 45px;
 		line-height: 57px;
 		font-weight: 300;
 		color: #fff;
-		margin-left: 143px;
+		margin-left: 100px;
 		margin-bottom: 0px;
 		}
 	.camera_caption > div h4{

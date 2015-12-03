@@ -321,7 +321,7 @@ nav{
 		.sf-menu > li {
 			float:left;
 			font-family: Georgia, serif;
-			font-size: 15px;
+			font-size: 16px;
 			line-height: 23px;
 			font-style: italic;
 			margin-left:18px;
@@ -802,5 +802,11 @@ footer{
         float: none;
         text-align: center;
         margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .camera_caption h3 {
+        font-size: 20px;
     }
 }
