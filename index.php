@@ -70,11 +70,6 @@
 							</h4>
                         </div>
                         <?php include("/latest_news.html"); ?>
-                        <a href="/about/latest_news" class="btn">
-							<span>
-								Read more
-							</span>
-						</a>
 					</div>
 				</div>
 				
