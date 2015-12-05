@@ -434,7 +434,24 @@ nav{
 
 
 /************Content***********/
-
+.box_crumb{
+	padding: 0px 0px 0px 15px;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.07);
+	-moz-box-shadow:    0px 0px 27px 0px rgba(0, 0, 0, 0.07);
+	box-shadow:         0px 0px 27px 0px rgba(0, 0, 0, 0.07);
+	margin-bottom: 5px;
+    margin-right: 9px;
+    margin-top: -15px;
+	}
+    .box_crumb a {
+        color: #3d8941;
+        vertical-align: top;
+        text-decoration: none;
+    }
+    .box_crumb a:hover {
+        text-decoration: underline;
+    }
 .box1{
 	padding: 10px 15px 15px 15px;
 	background: #fff;
