@@ -258,6 +258,7 @@ table {
 .container:after {
   clear: both;
 }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   .row {
     margin-left: -20px;
@@ -359,6 +360,7 @@ table {
     margin-left: 100px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 979px) {
   .row {
     margin-left: -20px;
@@ -463,6 +465,7 @@ table {
 .select-menu {
   display: none !important;
 }
+
 @media (max-width: 767px) {
   .container {
     width: 420px;
@@ -493,6 +496,7 @@ table {
     display: block !important;
   }
 }
+
 @media (max-width: 479px) {
   body {
     padding: 0;
