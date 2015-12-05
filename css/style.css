@@ -432,7 +432,6 @@ nav{
 		margin-bottom: 20px;
 		}
 
-
 /************Content***********/
 .box_crumb{
 	padding: 0px 0px 0px 15px;
@@ -793,10 +792,6 @@ footer{
 			display: inline-block;
 			}
 
-	.camera_caption {
-		margin-left: -170px !important;
-		}
-
 	.map {
 		padding-top: 6px;
 		float: left;
@@ -819,11 +814,5 @@ footer{
         float: none;
         text-align: center;
         margin-top: 0px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .camera_caption h3 {
-        font-size: 20px;
     }
 }
