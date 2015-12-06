@@ -16,12 +16,11 @@
 		<div class="container">
 			<div class="row">
                 <div class="grid_9">
-                    <!-- About Us -->
+                    <!-- About -->
 					<div class="box1">
 						<div class="title_box m_14">
 							<h4>
-								About 
-								<span>Us</span>
+								About <span>Lord of Life</span>
 							</h4>
 						</div>
 						<div class="wrapper">
@@ -135,15 +134,9 @@
 					</div>
 				</div>
                 <div class="grid_3">
-                    <!-- About Us Menu -->
+                    <!-- About Menu -->
                     <div class="box1">
-                        <div class="title_box">
-                            <a href="/about">
-							    <h4>
-								    About <span> Us</span>
-							    </h4>
-                            </a>
-						</div>
+                        
                         <?php include($_SERVER["DOCUMENT_ROOT"] . "/about/menu.html"); ?>
                     </div>
 					<div class="box2">
