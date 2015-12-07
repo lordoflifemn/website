@@ -35,13 +35,6 @@
                 <div class="grid_3">
                     <!-- About Us Menu -->
                     <div class="box1">
-                        <div class="title_box">
-                            <a href="/about">
-							    <h4>
-								    About <span> Us</span>
-							    </h4>
-                            </a>
-						</div>
                         <?php include($_SERVER["DOCUMENT_ROOT"] . "/about/menu.html"); ?>
                     </div>
 					<div class="box2">
