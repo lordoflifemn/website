@@ -136,7 +136,6 @@
                 <div class="grid_3">
                     <!-- About Menu -->
                     <div class="box1">
-                        
                         <?php include($_SERVER["DOCUMENT_ROOT"] . "/about/menu.html"); ?>
                     </div>
 					<div class="box2">

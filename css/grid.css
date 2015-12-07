@@ -168,12 +168,19 @@ table {
 .grid_12 {
   width: 1170px;
 }
+    .grid_12 .grid_9 {
+        margin-left: 0px;
+        width: 862px;
+    }
     .grid_12 .grid_8 {
         margin-left: 0px;
         width: 762px;
     }
     .grid_12 .grid_4 {
         width: 356px;
+    }
+    .grid_12 .grid_3 {
+        width: 256px;
     }
 .grid_11 {
   width: 1070px;
@@ -284,11 +291,18 @@ table {
   .grid_12 {
     width: 940px;
   }
+    .grid_12 .grid_9 {
+        width: 657px;
+    }
     .grid_12 .grid_8 {
         width: 612px;
     }
     .grid_12 .grid_4 {
         width: 278px;
+    }
+    .grid_12 .grid_3 {
+        margin-left: 10px;
+        width: 243px;
     }
   .grid_11 {
     width: 860px;
@@ -386,6 +400,9 @@ table {
   .grid_12 {
     width: 748px;
   }
+    .grid_12 .grid_9 {
+        width: 718px;
+    }
     .grid_12 .grid_8 {
         width: 484px;
     }
@@ -489,6 +506,9 @@ table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+    .grid_12 .grid_9 {
+        width: 100%;
+    }
     .grid_12 .grid_8 {
         width: 100%;
     }

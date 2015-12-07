@@ -761,6 +761,18 @@ footer{
 }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
+@media (min-width: 980px) and (max-width: 1199px) {
+    .title_box{
+        margin-bottom: 7px;
+		}
+		.title_box h4{
+			margin-bottom: 0px;
+			}
+        .title_box p{
+            margin-bottom: 0px;
+            margin-top: -2px;
+        }
+}
 
 @media only screen and (max-width: 1000px) {
 	h1{
