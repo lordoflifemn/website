@@ -39,33 +39,24 @@
                                     Our church is not a building; it is group of regular people that have come together. United we work to form a family.
                                     We are a diverse gathering with a common hope - to become closer to our faith through ministry and fellowship.
                                 </p>
+                                <p>
+                                    Lord of Life Lutheran Church is an ELCA congregation serving Farmington, Apple Valley, Lakeville, Rosemount and the 
+                                    surrounding communities. Lord of Life started in the fall of 1994 to help meet the spiritual needs of people 
+                                    searching for a home church, and to provide a ministry to people moving into the community. Our first service was 
+                                    held in April 1995 and in April 1997, Lord of Life became an organized church of The Evangelical Lutheran Church 
+                                    in America.
+                                </p>
+                                <p>
+                                    We are committed to hearing and sharing God's promise as God speaks to us, guides us, and inspires us to answer our 
+                                    call of discipleship and mission to make God first in our lives.
+                                </p>
+                                <p>
+                                    We are proud members of the <a href="http://www.spas-elca.org/" target="_blank">Saint Paul Area Synod</a> and the 
+                                    <a href="http://www.elca.org/" target="_blank">Evangelical Lutheran Church in America</a>.
+                                </p>
 							</div>
 						</div>
 					</div>
-                    <!-- Our History -->
-                    <div class="box1">
-						<div class="title_box m_14">
-							<h4>
-								Our 
-								<span>History</span>
-							</h4>
-						</div>
-                        <p>
-                            Lord of Life Lutheran Church is an ELCA congregation serving Farmington, Apple Valley, Lakeville, Rosemount and the 
-                            surrounding communities. Lord of Life started in the fall of 1994 to help meet the spiritual needs of people 
-                            searching for a home church, and to provide a ministry to people moving into the community. Our first service was 
-                            held in April 1995 and in April 1997, Lord of Life became an organized church of The Evangelical Lutheran Church 
-                            in America.
-                        </p>
-                        <p>
-                            We are committed to hearing and sharing God's promise as God speaks to us, guides us, and inspires us to answer our 
-                            call of discipleship and mission to make God first in our lives.
-                        </p>
-                        <p>
-                            We are proud members of the <a href="http://www.spas-elca.org/" target="_blank">Saint Paul Area Synod</a> and the 
-                            <a href="http://www.elca.org/" target="_blank">Evangelical Lutheran Church in America</a>.
-                        </p>
-                    </div>
 				</div>
                 <div class="grid_3">
                     <!-- About Menu -->
