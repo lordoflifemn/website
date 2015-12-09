@@ -28,7 +28,7 @@
                                 <h6 class="italic">
 	                                What do people say about our church? 
                                 </h6>
-                                <img src="/images/page3_img4.jpg" alt="" class="img_left" style="float: left; margin-right: 10px; width: 150px;">
+                                <img src="/images/page3_img4.jpg" alt="" class="img_right" style="float: right; width: 200px;">
                                 <p>
 	                                Most people find Lord of Life to be a friendly and welcoming, come as you are, accepted for who you are, give of your 
                                     talents and leadership, grow together in spirit and faith, give as God leads you, lean on each other place, where 
