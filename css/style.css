@@ -530,11 +530,11 @@ nav{
 			color: #3d8941;
 			}
 
-.qoute_box{
+.quote_box{
 	overflow: hidden;
 	padding-top: 4px;
 	}
-	.qoute_number{
+	.quote_number{
 		float: left;
 		width: 56px;
 		padding: 1px;
@@ -547,7 +547,7 @@ nav{
 		-moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
 		box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
 		}
-		.qoute_number span{
+		.quote_number span{
 			display: block;
 			text-align: center;
 			font-family: 'Roboto Slab', serif;

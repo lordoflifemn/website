@@ -24,8 +24,8 @@
 							</h4>
 						</div>
 						<div class="title_box">
-							<div class="qoute_box">
-								<div class="qoute_number">
+							<div class="quote_box">
+								<div class="quote_number">
 									<span>1.</span>
 								</div>
 								<div class="quote_content">
@@ -52,8 +52,8 @@
 							</div>
 						</div>
 						<div class="title_box">
-							<div class="qoute_box">
-								<div class="qoute_number">
+							<div class="quote_box">
+								<div class="quote_number">
 									<span>2.</span>
 								</div>
 								<div class="quote_content">
@@ -82,8 +82,8 @@
 							</div>
 						</div>
                         <div class="title_box">
-						    <div class="qoute_box">
-							    <div class="qoute_number">
+						    <div class="quote_box">
+							    <div class="quote_number">
 								    <span>3.</span>
 							    </div>
 							    <div class="quote_content">
@@ -105,8 +105,8 @@
 						    </div>
                         </div>
                         <div class="title_box">
-                            <div class="qoute_box">
-							    <div class="qoute_number">
+                            <div class="quote_box">
+							    <div class="quote_number">
 								    <span>4.</span>
 							    </div>
 							    <div class="quote_content">

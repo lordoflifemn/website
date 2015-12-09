@@ -60,7 +60,7 @@
                                     <a target="volunteer_calendar" href="/forms/volunteer_calendars/2015_11_november.pdf">Volunteer Calendar</a>
                                 </h6>
                                 <p>
-                                    Check for when you'll be serving.
+                                    Check for when you'll get to serve.
                                 </p>
                             </div>
                             <div class="title_box">
@@ -68,7 +68,7 @@
                                     <a target="church_calendar" href="http://www.google.com/calendar/embed?src=p6paf1v8o9kcen41ec0q6mraps%40group.calendar.google.com&ctz=America/Chicago">Church Calendar</a>
                                 </h6>
                                 <p>
-                                    What's coming up next at Lord of Life?
+                                    What's on the calendar at Lord of Life?
                                 </p>                
                             </div>
                         </div>

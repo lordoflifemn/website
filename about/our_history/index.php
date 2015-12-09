@@ -56,64 +56,65 @@
                         <div class="wrapper">
 							<div class="extra_wrap">
                                 <h6 class="italic">
-	                                 When did it all happen?
+	                                 How and when did it all happen?
                                 </h6>
+                                <span>Sept. 15, 1994</span>
                                 <p>
-                                    Sept. 15, 1994
                                     The Division For Outreach appoints Pastor Jamie Thompson as Pastor Developer, followed 
                                     by the official call given by the St. Paul Area Synod. Pastor Jamie, his wife Sherri, 
                                     their son and daughter Nathan and Breanna arrive in Farmington. 
                                 </p>
+                                <span>April 2, 1995</span>
                                 <p>
-                                    April 2, 1995
                                     First Service of Lord of Life at Akin Road Elementary School. 229 people present 
                                     including Bishop Lowell Erdahl of the St. Paul Area Synod.
                                 </p>
+                                <span>August 12-15, 1996</span>
                                 <p>
-                                    August 12-15, 1996
                                     First Vacation Bible School with 40 children and 15 volunteers meeting daily at the 
                                     parsonage.
                                 </p>
+                                <span>August 16-17, 1996</span>
                                 <p>
-                                    August 16-17, 1996
                                     Mission statement adopted: "Making God first through hope,growth, and togetherness."
                                 </p>
+                                <span>September 29, 1996</span>
                                 <p>
-                                    September 29, 1996
                                     First confirmation class is confirmed. The Charter was opened for the first time with 
                                     80 people signing the charter.
                                 </p>
+                                <span>April 6, 1997</span>
                                 <p>
-                                    April 6, 1997
                                     Service of Organization led by Mission Director Richard Mord. The constitution, bylaws, 
                                     and budget are adopted.
                                 </p>
+                                <span>April 13, 1997</span>
                                 <p>
-                                    April 13, 1997
                                     Service of Recognition. Bishop Mark Hanson preaches and presides. Lord of Life 
                                     recognized as a congregation of the Evangelical Lutheran Church in America. Pastor 
                                     Jamie Thompson is called as the first pastor of Lord of Life. The Charter officially 
                                     closes with 144 baptized members.
                                 </p>
+                                <span>December 1999</span>
                                 <p>
-                                    December 1999
+                                    
                                     Lord of Life closes the purchase of its 15 acre site, just west of Pilot Knob road on 
                                     the south side of Dodd Boulevard.
                                 </p>
+                                <span>April 2002</span>
                                 <p>
-                                    April 2002
                                     Lord of Life give thanks to God for its 7 years of worship and its 5th anniversary!
                                 </p>
+                                <span>July 2006</span>
                                 <p>
-                                    July 2006
                                     Lord of Life breaks ground on our new building site!
                                 </p>
+                                <span>January 2007</span>
                                 <p>
-                                    January 2007
                                     Lord of Life takes occupancy of our new building!
                                 </p>
+                                <span>April 2007</span>
                                 <p>
-                                    April 2007
                                     Lord of Life hosts our official Open House and Dedication Ceremonies and celebrates 
                                     10 years as a recognized ELCA congregation.
                                 </p>
