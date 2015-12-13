@@ -432,6 +432,18 @@ nav{
 		margin-bottom: 20px;
 		}
 
+.submenu .submenu_item {
+    color:#f00;
+    font-size: 15px;
+    margin-left: 40px;
+    }
+    .submenu .submenu_item a {
+        text-decoration: none;
+    }
+    .submenu .submenu_item a:hover {
+        text-decoration: underline;
+    }
+
 /************Content***********/
 .box1{
 	padding: 10px 15px 15px 15px;
