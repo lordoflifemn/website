@@ -3,6 +3,10 @@
 <head>
 	<title>Lord of Life | Contacts</title>
 	<?php include($_SERVER["DOCUMENT_ROOT"] . "/bootstrap.html"); ?>
+
+    <link rel="stylesheet" href="/css/form.css">
+
+    <script src="/js/TMForm.js"></script>
 </head>
 
 <body>
@@ -16,11 +20,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_8">
+                    <!-- Contact Information -->
 					<div class="box1">
 						<div class="title_box m_14">
 							<h4>
-								Contact 
-								<span> Information</span>
+								Contact <span> Information</span>
 							</h4>
 						</div>
 						<div class="wrapper m_80">
@@ -31,14 +35,20 @@
 							</div>
 							
 							<div class="address_box">
-								<h6 class="italic">Lord of Life Lutheran Church</h6>
+								<h6 class="italic">
+                                    Lord of Life Lutheran Church
+                                </h6>
 								<address>
 									<dl>
 										<dt>
 											16200 Dodd Lane, Lakeville MN
 										</dt>
-										<dd><span>Telephone:</span> 952-953-4484</dd>
-										<dd class="mail">E-mail: <a href="#">info@lordoflifemn.org</a></dd>
+										<dd>
+                                            <span>Telephone:</span> 952-953-4484
+                                        </dd>
+										<dd class="mail">
+                                            E-mail: <a href="mailto:info@lordoflifemn.org">info@lordoflifemn.org</a>
+                                        </dd>
 									</dl>
 								</address>
 							</div>
@@ -49,8 +59,7 @@
 					<div class="box1">
 						<div class="title_box m_14">
 							<h4>
-								Contact 
-								<span> Form</span>
+								Contact <span>Form</span>
 							</h4>
 						</div>
 						<form id="form">
@@ -58,43 +67,40 @@
 								<div class="success-message">Contact form submitted</div>
 							</div>
 							<label class="name">
-							<input type="text" placeholder="Name" data-constraints="@Required @JustLetters" />
-							  <span class="empty-message">*This field is required.</span>
-							  <span class="error-message">*This is not a valid name.</span>
-							  </label>
-							
-							  <label class="email">
-							  <input type="text" placeholder="E-mail" data-constraints="@Required @Email" />
-							  <span class="empty-message">*This field is required.</span>
-							  <span class="error-message">*This is not a valid email.</span>
-							  </label>
-							  <label class="phone">
-								  <input type="text" placeholder="Phone" data-constraints="@Required @JustNumbers"/>
-								  <span class="empty-message">*This field is required.</span>
-								  <span class="error-message">*This is not a valid phone.</span>
-							  </label>
-							
-							  <label class="message">
-							  <textarea placeholder="Message" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-							  
+							    <input type="text" placeholder="Name" data-constraints="@Required @JustLetters" />
+							    <span class="empty-message">*This field is required.</span>
+							    <span class="error-message">*This is not a valid name.</span>
+							</label>
+							<label class="email">
+							    <input type="text" placeholder="E-mail" data-constraints="@Required @Email" />
+							    <span class="empty-message">*This field is required.</span>
+							    <span class="error-message">*This is not a valid email.</span>
+							</label>
+							<label class="phone">
+							    <input type="text" placeholder="Phone" data-constraints="@Required @JustNumbers"/>
+							    <span class="empty-message">*This field is required.</span>
+							    <span class="error-message">*This is not a valid phone.</span>
+							</label>							
+							<label class="message">
+							  <textarea placeholder="Message" data-constraints='@Required @Length(min=10,max=999999)'></textarea>
 							  <span class="empty-message">*This field is required.</span>
 							  <span class="error-message">*The message is too short.</span>
-							  </label>
-							  <div>								
-								<div class="wrapper">
-								  <div class="btns">
-									 <a data-type="reset" class="btn resrt">
-										<span>Clear</span>
-									 </a>									 
-								  </div>
-								  <div class="btns mr_0">
-									<a data-type="submit" class="btn">
-										<span>Send</span>
-									</a>									
-								  </div>
-								</div>
-							</div>
-						</form>
+							</label>
+							<div>								
+							    <div class="wrapper">
+                                    <div class="btns">
+								        <a data-type="submit" class="btn">
+									        <span>Send</span>
+								        </a>									
+								    </div>
+								    <div class="btns mr_0">
+								        <a data-type="reset" class="btn">
+										    <span>Clear</span>
+									    </a>									 
+								    </div>								    
+							    </div>
+						    </div>
+					    </form>
 					</div>
 				</div>
 			</div>
