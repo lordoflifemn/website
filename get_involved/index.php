@@ -19,7 +19,7 @@
 					<div class="box1">
 						<div class="title_box m_14">
 							<h4>
-								Get <span>Connected</span>
+								Get <span>Involved</span>
 							</h4>
 						</div>
 						<div class="title_box m_14">							
