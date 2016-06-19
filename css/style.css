@@ -91,9 +91,10 @@ a[href^="tel:"] {
 h1{
 	float: left;
     font-family: 'Roboto Slab', serif;
-	font-size: 24px;
+	font-size: 21px;
 	font-weight: 600;
 	color: #323232;
+    margin-left: 10px;
     margin-top: 10px;
 	}
 	h1 a{}
@@ -102,41 +103,29 @@ h1{
 		}
     h1 img{
         height: 45px;
-        left: 80px;
         margin-top: -10px;
         opacity: .5;
-        position: absolute;
-        top: 17px;
     }
 	h1 .slogan{
 		display:block;
 	}
     h1 span.lord{
-        left: 120px;
-        margin-top: 8px;
-        opacity: .8;
-        position: absolute;
-        top: 17px;
+        margin-left: -20px;
+        opacity: .85;
 		}
     h1 span.church{
 		color: #3d8941;
-        font-size: 22px;
 		font-weight: 400;
-        left: 250px;
-        opacity: .8;
-        position: absolute;
-        top: 25px;
+        margin-top: 100px;
+        opacity: .85;
 		}
-    h1 span.hope{
+    h1 div.hope{
         font-size: 10px;
         font-style: italic;
-        left: 121px;
-        margin-top: 27px;
-        opacity: .8;
-        position: absolute;
-        top: 17px;
+        margin-left: 43px;
+        margin-top: -8px;
+        opacity: .85;
 		}
-
 h2{
 	color:#333f00;
 	font:bold 30px/36px Arial, Helvetica, sans-serif;
@@ -149,7 +138,7 @@ h3{
 }
 h4{
 	font-family: 'Roboto Slab', serif;
-	font-size: 31px;
+	font-size: 26px;
 	line-height: 36px;
 	font-weight: 400;
 	color: #323232;
@@ -172,23 +161,23 @@ h6{
 	}
 
 	h6.italic{
+		color: #3d8941;
 		font-family: Georgia, serif;
 		font-size: 17px;
-		line-height: 25px;
-		font-weight: normal;
 		font-style: italic;
-		color: #3d8941;
+		font-weight: normal;
+		line-height: 25px;
 		margin-bottom: 8px;
 		}
 	h6.icon_title{
-		padding-left:  29px;
+		color: #3d8941;
 		font-family: Georgia, serif;
 		font-size: 17px;
-		line-height: 25px;
-		font-weight: normal;
 		font-style: italic;
-		color: #3d8941;
+		font-weight: normal;
+		line-height: 25px;
 		margin-bottom: 2px;
+		padding-left:  29px;
 		position: relative;
 		}
 		h6.icon_title a{
@@ -211,9 +200,8 @@ h6{
 			left: 0px;
 			}
 		
-
 h2 a, h3 a, h4 a, h5 a, h6 a{
-	color:inherit;'
+	color:inherit;
 }
 	h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
 	}
@@ -312,7 +300,6 @@ div.contact_info {
     color: #3d8941;
     float: right;
     font-size: 11px;
-    height: 75px;
     margin: -6px 0 0 0;
     }
     div.contact_info a {
@@ -325,9 +312,8 @@ div.contact_info {
 
 /* Menu */
 nav{
-    position: absolute;
-    right: 100px;
-    top: 50px;
+	float: right;
+	padding-top: 20px;
 	}
 	.sf-menu {
 		list-style:none;
@@ -335,10 +321,10 @@ nav{
 		.sf-menu > li {
 			float:left;
 			font-family: Georgia, serif;
-			font-size: 20px;
+			font-size: 16px;
 			line-height: 23px;
 			font-style: italic;
-			margin-left:23px;
+			margin-left:18px;
 			position:relative;
 		}
 		.sf-menu > li:first-child{
@@ -446,9 +432,19 @@ nav{
 		margin-bottom: 20px;
 		}
 
+.submenu .submenu_item {
+    color:#f00;
+    font-size: 15px;
+    margin-left: 40px;
+    }
+    .submenu .submenu_item a {
+        text-decoration: none;
+    }
+    .submenu .submenu_item a:hover {
+        text-decoration: underline;
+    }
 
 /************Content***********/
-
 .box1{
 	padding: 10px 15px 15px 15px;
 	background: #fff;
@@ -457,6 +453,13 @@ nav{
 	box-shadow:         0px 0px 27px 0px rgba(0, 0, 0, 0.07);
 	margin-bottom: 20px;
 	}
+    .box1 a {
+        color: #3d8941;
+        text-decoration: underline;
+    }
+    .box1 h6 a {
+        text-decoration: none;
+    }
 .box2{
 	padding: 10px 15px 15px 15px;
 	background: #f4f4f4;
@@ -470,6 +473,9 @@ nav{
 		border-bottom: 1px solid #d9d9d9;
         margin-bottom: 10px;
 		}
+        .title_box a{
+            text-decoration: none;
+        }
 		.title_box h4{
 			margin-bottom: 10px;
 			}
@@ -536,11 +542,11 @@ nav{
 			color: #3d8941;
 			}
 
-.qoute_box{
+.quote_box{
 	overflow: hidden;
 	padding-top: 4px;
 	}
-	.qoute_number{
+	.quote_number{
 		float: left;
 		width: 56px;
 		padding: 1px;
@@ -553,7 +559,7 @@ nav{
 		-moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
 		box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
 		}
-		.qoute_number span{
+		.quote_number span{
 			display: block;
 			text-align: center;
 			font-family: 'Roboto Slab', serif;
@@ -585,29 +591,21 @@ nav{
 		color: #3d8941;
 		}
 	
-
-
-
-
 /*----------- Map ------------*/
 .map{
 	padding-top: 6px;
 	float: left;
-	width: 440px;
-	margin-right: 30px;
+	width: 480px;
+	margin-right: 15px;
 	}
 	.map iframe{
 		width: 100%;
-		height: 400px;
+		height: 500px;
 		}
 	.address_box{
 		float: left;
-		width: 200px;
+		width: 240px;
 		}
-
-
-
-
 
 address dl{
 	width:100%;
@@ -618,9 +616,9 @@ address dl{
 address dt{
 	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
-	line-height: 23px;
+	line-height: 18px;
 	color: #777777;
-	margin-bottom: 22px;
+	margin-bottom: 15px;
 	}
 address dd{
 	overflow:hidden;
@@ -655,8 +653,8 @@ footer{
 	
 	h4.footer_title{
 		font-family: Georgia, serif;
-		font-size: 20px;
-		line-height: 23px;
+		font-size: 18px;
+		line-height: 20px;
 		font-style: italic;
 		color: #323232;
 		margin-bottom: 5px;
@@ -775,9 +773,20 @@ footer{
 }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
+@media (min-width: 980px) and (max-width: 1199px) {
+    .title_box{
+        margin-bottom: 7px;
+		}
+		.title_box h4{
+			margin-bottom: 0px;
+			}
+        .title_box p{
+            margin-bottom: 0px;
+            margin-top: -2px;
+        }
+}
 
-@media only screen and (max-width: 1200px) {
-	
+@media only screen and (max-width: 1000px) {
 	h1{
 		float: none;
 		text-align: center;
@@ -785,16 +794,12 @@ footer{
 
 	nav {
 		float: none;
+        padding-top: 0px;
 		text-align: center;
 		}
 		.sf-menu {
 			display: inline-block;
 			}
-
-
-	.camera_caption {
-		margin-left: -170px !important;
-		}
 
 	.map {
 		padding-top: 6px;
@@ -814,67 +819,9 @@ footer{
 			margin-bottom: 0px;
 			}
 
-}
-
-
-
-@media only screen and (max-width: 995px) {
-
-
-	
-
-
-
-	.img_fleft,
-	.img_right{
-		width: 100%;
-		margin-right: 0;
-		float: none;
-		margin-bottom: 30px;
-	}
-
-	.camera_caption {
-		display: none !important;
-		}
-
-	h4 {
-		font-size: 24px;
-		line-height: 30px;
-		}
-	
-	.sf-menu > li{
-		margin-left:15px;
-	}
-
-
-	.address_box address{
-			float: none;
-			margin-right: 0px;
-			}
-		address dl{
-			margin-bottom: 20px;
-			}
-
-	#form .btns {
-		margin-right: 12px;
-		}
-
-
-
-}
-@media only screen and (max-width: 767px) {
-	.sf-menu{
-		display:none;
-	}
-	#mm0{
-		display:block;
-	}
-}
-@media only screen and (max-width: 480px) {
-	.img_fleft.nofloat,
-	.img_right.nofloat{
-		float:none;
-		max-width:inherit;
-		margin:0 0 20px;
-	}
+    div.contact_info {
+        float: none;
+        text-align: center;
+        margin-top: 0px;
+    }
 }

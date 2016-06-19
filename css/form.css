@@ -1,5 +1,4 @@
 /****Form****/
-
 #form {
 	padding-top: 4px;
 }
@@ -24,9 +23,7 @@
 	font-style: normal;
 	border: 1px solid #d7d7d7;
     padding: 4px 9px 3px 9px;
-   
 }
-
 
 #form textarea {
 	outline: none;
@@ -52,10 +49,6 @@
 	border: 1px solid #d7d7d7;
     padding: 4px 9px 3px 9px;
 }
-
-	
-
-
 
 #form ._placeholder {
 	transition: 0.5s ease;
@@ -94,10 +87,10 @@
 	opacity: 0.3;
 }
 
-
 #form .message ._placeholder {
 	height: 100% !important;
 }
+
 #form label {
 	position:relative;
 	display: block;
@@ -106,15 +99,10 @@
 	width: 100%;
 }
 
-
-
 #form label.message {
 	width: 100%;
 	margin-left: 0;
 }
-
-
-
 
 #form .error-message, #form .empty-message {
 	color: #E02A05;
@@ -136,16 +124,13 @@
 	bottom: -16px;
 }*/
 
-
-
-
 #form .invalid .error-message, #form .empty .empty-message {
 	opacity: 1;
 }
 
 #form .btns {
 	text-align: right;
-	padding-top: 24px;
+	padding-top: 10px;
 	padding-bottom: 6px;
 	float: left;
 	margin-right: 19px;
@@ -190,8 +175,6 @@
 		transition: 0.3s;
 		}
 
-
-
 	.btns a.btn:hover{
 		text-decoration: none;
 		color: #2e2e2e;
@@ -233,4 +216,3 @@
 .success_wrapper {
 	position: relative;	
 }
-

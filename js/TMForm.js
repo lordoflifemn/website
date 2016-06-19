@@ -11,7 +11,7 @@
 					,invalidClass:'invalid'
 					,successClass:'success'
 					,onceVerifiedClass:'once-verified'
-					,mailHandlerURL:'bat/MailHandler.php'					
+					,mailHandlerURL:'/bat/MailHandler.php'					
 					,successShowDelay:'4000'
 					,stripHTML:true
 				},opt)
@@ -221,6 +221,7 @@
 		})
 	}
 })(jQuery)
+
 //using suggested jQuery practice by passing jQuery into a function
 //in order to have $ notation without conflicting with other libraries
 //Author: Troy Ingram

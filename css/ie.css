@@ -18,8 +18,8 @@ filter:alpha(opacity=100); }
 
 
 .camera_wrap .camera_pag .camera_pag_ul li > span,
-.qoute_number,
-.qoute_number span
+.quote_number,
+.quote_number span
  { behavior:url(js/PIE.htc); position:relative;}
 
 

@@ -168,6 +168,20 @@ table {
 .grid_12 {
   width: 1170px;
 }
+    .grid_12 .grid_9 {
+        margin-left: 0px;
+        width: 862px;
+    }
+    .grid_12 .grid_8 {
+        margin-left: 0px;
+        width: 762px;
+    }
+    .grid_12 .grid_4 {
+        width: 356px;
+    }
+    .grid_12 .grid_3 {
+        width: 256px;
+    }
 .grid_11 {
   width: 1070px;
 }
@@ -251,6 +265,7 @@ table {
 .container:after {
   clear: both;
 }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   .row {
     margin-left: -20px;
@@ -276,6 +291,19 @@ table {
   .grid_12 {
     width: 940px;
   }
+    .grid_12 .grid_9 {
+        width: 657px;
+    }
+    .grid_12 .grid_8 {
+        width: 612px;
+    }
+    .grid_12 .grid_4 {
+        width: 278px;
+    }
+    .grid_12 .grid_3 {
+        margin-left: 10px;
+        width: 243px;
+    }
   .grid_11 {
     width: 860px;
   }
@@ -346,6 +374,7 @@ table {
     margin-left: 100px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 979px) {
   .row {
     margin-left: -20px;
@@ -371,6 +400,15 @@ table {
   .grid_12 {
     width: 748px;
   }
+    .grid_12 .grid_9 {
+        width: 718px;
+    }
+    .grid_12 .grid_8 {
+        width: 484px;
+    }
+    .grid_12 .grid_4 {
+        width: 214px;
+    }
   .grid_11 {
     width: 684px;
   }
@@ -444,6 +482,7 @@ table {
 .select-menu {
   display: none !important;
 }
+
 @media (max-width: 767px) {
   .container {
     width: 420px;
@@ -467,10 +506,17 @@ table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+    .grid_12 .grid_9 {
+        width: 100%;
+    }
+    .grid_12 .grid_8 {
+        width: 100%;
+    }
   .select-menu {
     display: block !important;
   }
 }
+
 @media (max-width: 479px) {
   body {
     padding: 0;
