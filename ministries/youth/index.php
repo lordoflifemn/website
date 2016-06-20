@@ -29,6 +29,12 @@
                         </div>
 					</div>
 				</div>
+                <div class="grid_3">
+                    <!-- Ministries Menu -->
+                    <div class="box1">
+                        <?php include($_SERVER["DOCUMENT_ROOT"] . "/ministries/menu.html"); ?>
+                    </div>
+                </div>
 			</div>
 		</div>
 	</div>
