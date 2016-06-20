@@ -18,7 +18,7 @@
                 <div class="grid_9">
                     <!-- Worship Schedule -->
                     <div class="box1">
-						<div class="title_box m_14">
+						<div class="title_box">
 							<h4>
 								Worship <span>Schedule</span>
 							</h4>

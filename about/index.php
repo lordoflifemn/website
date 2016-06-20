@@ -18,7 +18,7 @@
                 <div class="grid_9">
                     <!-- About -->
 					<div class="box1">
-						<div class="title_box m_14">
+						<div class="title_box">
 							<h4>
 								About <span>Lord of Life</span>
 							</h4>

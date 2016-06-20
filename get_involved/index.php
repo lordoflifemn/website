@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="grid_8">
 					<div class="box1">
-						<div class="title_box m_14">
+						<div class="title_box">
 							<h4>
 								Get <span>Involved</span>
 							</h4>

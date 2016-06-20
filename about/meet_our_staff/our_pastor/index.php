@@ -18,7 +18,7 @@
                 <div class="grid_9">
                     <!-- Core Values -->
 					<div class="box1">
-						<div class="title_box m_14">
+						<div class="title_box">
 							<h4>
 								Meet <span>Our Pastor</span>
 							</h4>

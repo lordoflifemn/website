@@ -18,7 +18,7 @@
                 <div class="grid_9">
                     <!-- Our History -->
                     <div class="box1">
-						<div class="title_box m_14">
+						<div class="title_box">
 							<h4>
 								Our <span>History</span>
 							</h4>

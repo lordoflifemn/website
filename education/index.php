@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="grid_8">
 					<div class="box1">
-						<div class="title_box m_11">
+						<div class="title_box">
 							<h4>
 								Educational <span>Opportunities</span>
 							</h4>
