@@ -16,22 +16,31 @@
 		<div class="container">
 			<div class="row">
                 <div class="grid_9">
-                    <!-- Meet Our Staff -->
+                    <!-- Core Values -->
 					<div class="box1">
 						<div class="title_box">
 							<h4>
-								Meet <span>Our Staff</span>
+								Our <span>Church Council</span>
 							</h4>
 						</div>
-                        <h6 class="italic">
-	                        <a href="/meet_our_staff/administrative_assistant">Administrative Assistant</a>
+                        <h6 class="italic" style="margin-bottom: -2px;">
+                            Council President
                         </h6>
-                        <h6 class="italic">
-	                        <a href="/meet_our_staff/music_directory">Music Director</a>
+                        Lisa Klemmensen
+                        <h6 class="italic" style="margin-bottom: -2px; margin-top: 10px;">
+	                        Vice President
                         </h6>
-                        <h6 class="italic">
-	                        <a href="/meet_our_staff/our_pastor">Our Pastor</a>
+                        Tony Trevis
+                        <h6 class="italic" style="margin-bottom: -2px; margin-top: 10px;">
+	                        Secrectary
                         </h6>
+                        Amy Ehrlichmann
+                        <h6 class="italic" style="margin-bottom: -2px; margin-top: 10px;">
+	                        Members
+                        </h6>
+                        Marika Dwyer<br>
+                        Doris McNamara<br>
+                        Mike Schaaf
 					</div>
 				</div>
                 <div class="grid_3">

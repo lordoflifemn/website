@@ -29,6 +29,10 @@
 	                                Celebrating God's Presence in the History and Mission of Lord of Life
                                 </h6>
                                 <p>
+                                    Beginning in 1994, Lord of Life has grown to a strong and supportive congregation. We began to gather together at 
+                                    Akin Road Elementary School in 1995 and moved to our permanent home in our newly constructed church in 2007.
+                                </p>
+                                <p>
                                     Lord of Life Lutheran Church is an ELCA congregation serving Farmington, Apple Valley, Lakeville, Rosemount and the 
                                     surrounding communities. Lord of Life started in the fall of 1994 to help meet the spiritual needs of people 
                                     searching for a home church, and to provide a ministry to people moving into the community. Our first service was 
@@ -127,58 +131,6 @@
                     <div class="box1">
                         <?php include($_SERVER["DOCUMENT_ROOT"] . "/about/menu.html"); ?>
                     </div>
-					<div class="box2">
-						<div class="title_box">
-							<h4>
-								Online Donations. <span>Real Help to People!</span>
-							</h4>
-						</div>
-						<h6 class="italic m_01">
-							<a href="#">
-								Ctetur adipisicing elit, sed do eiusmod tempor incididunt
-							</a>
-						</h6>
-						<p class="m_0">
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-						</p>
-					</div>
-					<div class="box1">
-						<div class="title_box">
-							<h4>
-								What <span> We Believe In</span>
-							</h4>
-						</div>
-						<div class="title_box">						
-							<h6 class="icon_title">
-								<a href="#">Sit amet conse ctetur adipisicing</a>
-							</h6>
-							<p>
-								Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididu
-							</p>
-						</div>
-						<div class="title_box">
-							<h6 class="icon_title">
-								<a href="#">Officia deserunt mollit </a>
-							</h6>
-							<p>
-								Amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-							</p>
-						</div>
-						<div class="title_box">
-							<h6 class="icon_title">
-								<a href="#">Amet conse ctetur adipisicing</a>
-							</h6>
-							<p>
-								Conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-							</p>
-						</div>
-						<h6 class="icon_title">
-							<a href="#">Anim id est laborum</a>
-						</h6>
-						<p class="m_0">
-							Sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-						</p>
-					</div>
 				</div>
 			</div>
 		</div>

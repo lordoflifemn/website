@@ -58,7 +58,7 @@
                 </div>
                 <div class="title_box">
                     <h6 class="icon_title">
-                        <a target="volunteer_calendar" href="/forms/volunteer_calendars/2015_11_november.pdf">Volunteer Calendar</a>
+                        <a target="volunteer_calendar" href="/forms/volunteer_calendars/2017_10_October.pdf">Volunteer Calendar</a>
                     </h6>
                     <p>
                         Check for when you'll get to serve.
