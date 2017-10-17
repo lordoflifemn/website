@@ -93,11 +93,11 @@
 									        <span>Send</span>
 								        </a>									
 								    </div>
-								    <div class="btns mr_0">
+                                    <div class="btns mr_0">
 								        <a data-type="reset" class="btn">
 										    <span>Clear</span>
 									    </a>									 
-								    </div>								    
+								    </div>					    
 							    </div>
 						    </div>
 					    </form>
